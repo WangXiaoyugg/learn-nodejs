@@ -106,3 +106,25 @@ node --inspect-brk xxx.js
 - VS Code
 - WebStorm
 - 条件调试
+
+##### path模块
+- __diranme ,__filename 总是返回文件的绝对路径
+- process.cwd() 总是返回node 执行命令时的路径
+
+##### ./
+- require 的方法中总是相对当前的文件所在文件夹
+- 在其他地方和 process.cwd() -样，相对node的启动文件夹
+
+#### Buffer
+- 用于处理二进制数据流
+- 实例类似整数数组，大小固定
+- C++代码在V8 在堆外分配物理内存
+
+#### events
+- demo/event.js
+
+#### fs
+- demo/fs.js
+
+#### promise
+- demo/promise.js
