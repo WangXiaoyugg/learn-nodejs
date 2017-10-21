@@ -66,3 +66,43 @@ client =>  <= |single thread|   <======
 - web Server
 - 本地代码构建(前端)
 - 实用工具开发(性能不一定是最佳)
+
+### 开发环境
+- 官网下载 NodeJS [安装包](http://nodejs.cn/download/) 
+- CommonJS 
+- global
+- process
+
+###### CommonJS
+```
+console.log(1);
+
+(function (exports,require,module,__filename,__dirname) {
+  console.log(1);
+});
+```
+- 每个文件是一个模块，有自己的作用域
+- 在模块内部 module 变量代表模块本身
+- module.exports 属性代表模块的对外接口
+
+##### require 规则
+- / 表示绝对路径 ./表示相对路径
+- 支持 js json node 扩展名文件，不写依次尝试
+- 不写路径则认为是 build-in 模块 或是各级的node_modules 下的模块
+
+##### require 特性
+-  module 被加载的时候执行，加载后缓存
+- 一旦出现某个某块被循环加载，只输出自己已执行的部分，还未执行的部分不会输出
+
+##### global
+- CommonJS
+- Buffer process console
+- timer
+
+#### 调试
+- Inspector
+使用谷歌浏览器调试控制台
+node --inspect-brk xxx.js
+- VS Code
+- WebStorm
+- 条件调试

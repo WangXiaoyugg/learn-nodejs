@@ -1,0 +1,1 @@
+const fs = require('fs');const result = fs.readFile('./fs_demo.js',(err,data) => {    if(err) {        console.log(err);        return false;    }    console.log(data.toString());});console.log(result);

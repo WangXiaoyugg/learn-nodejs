@@ -1,0 +1,1 @@
+/** argv* argv0* execArgv* execPath* */const { argv, argv0, execAgrv, execPath} = process;// console.log(process.argv);argv.forEach((item)=>{    console.log(item);});console.log(argv0);console.log(execAgrv);//--xxxconsole.log(execPath);
