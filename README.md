@@ -1,4 +1,5 @@
 # learn-nodejs
+<<<<<<< HEAD
 
 ### 学习目标
 
@@ -201,3 +202,6 @@ x.y.* <=> ~1.2.0
      
            
            
+=======
+learning notes about NodeJs ,easy tutorial
+>>>>>>> bf60f79a892704b1143301598f4e0cee26be6e8c
