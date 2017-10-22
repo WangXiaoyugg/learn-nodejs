@@ -1,5 +1,4 @@
 # learn-nodejs
-<<<<<<< HEAD
 
 ### 学习目标
 
