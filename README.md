@@ -201,7 +201,3 @@ x.y.* <=> ~1.2.0
 - git rm -r --cached . 撤销提交
      
            
-           
-=======
-learning notes about NodeJs ,easy tutorial
->>>>>>> bf60f79a892704b1143301598f4e0cee26be6e8c
