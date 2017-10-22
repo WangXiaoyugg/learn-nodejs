@@ -1,0 +1,1 @@
+setImmediate(() => {    console.log('setImmediate');//第三});setTimeout(() => {    console.log('timeout') //第二},0);process.nextTick(() => {   console.log('nextTick'); //第一    process.nextTick(() => {        console.log('nextTick'); //再插入队列的队尾，循环调用出问题    })});

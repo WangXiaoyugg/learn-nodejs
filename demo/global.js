@@ -1,0 +1,1 @@
+const foo = 1000;module.exports.foo = foo;

@@ -1,0 +1,1 @@
+console.log('this is module');const foo = 100;function bar() {    console.log(foo);}module.exports.foo = foo;module.exports.bar = bar;

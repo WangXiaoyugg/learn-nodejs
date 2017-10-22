@@ -1,0 +1,1 @@
+//缓存只会加载一次，会缓存require('./demo1');require('./demo1');

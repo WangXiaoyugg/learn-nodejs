@@ -1,0 +1,33 @@
+{
+  "name": "staticserver",
+  "version": "0.1.1",
+  "description": "static server",
+  "main": "src/app.js",
+   "bin":{
+     "staticServer":"bin/staticServer"
+   },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "author": "garen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "handlebars": "^4.0.11",
+    "yargs": "^9.0.1"
+  }
+}

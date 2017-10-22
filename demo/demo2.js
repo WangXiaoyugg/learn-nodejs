@@ -1,0 +1,1 @@
+const mod = require('./demo1.js');console.log(mod.foo);mod.bar();

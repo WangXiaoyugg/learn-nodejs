@@ -1,0 +1,1 @@
+//npm root -g  NodeJs的系统安装路径const chalk = require('chalk');console.log(chalk.red('this is red text'));
