@@ -1,0 +1,1 @@
+const {add ,mul } = require('./math');const {should,expect,assert} = require('chai');should();add(2,3).should.equal(4);//bdd// expect(add(2,3)).to.be(4);//bdd// assert.equal(add(2,3),4);//tdd

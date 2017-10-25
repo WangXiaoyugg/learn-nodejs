@@ -1,0 +1,1 @@
+const {add ,mul } = require('./math');const assert = require('assert');assert.equal(add(2,3),4);

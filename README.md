@@ -198,5 +198,47 @@ x.y.* <=> ~1.2.0
  
 #### git
 - git rm -r --cached . 撤销提交
+
+### 本地构建
+- babel
+- 不能解决依赖
+- Object.assign({a:1},{b:1});是es2015之前的，只支持2015
+  使用plugins:Modules 
+  
+### 打包webpack
+- 模块 bundler
+- 官网文档，tutorial
+- 核心概念
+```
+entry: 入口文件（多入口和设置入口的名字）
+output: 输出的文件
+module: {rules:[]} 配置 loader;
+plugins:[];extract-text-webpack-plugin;
+externals:{jquery:"jQuery"};'减少react,react-dom'
+new webpack.optimize.CommonsChunkPlugin({names:['vendor','runtime']})
+entry:{
+    vendor:['react','react-dom']
+}
+treeShaking 打包用到的模块 uglifyjs-webpack-plugin
+```
+#### 测试
+- 断言 assert 模块
+- BDD  行为驱动开发 chai 
+- TDD  测试驱动开发 chai
+- mocha describe it 可以嵌套
+  语义化非常明显 it.only(),it.skip();  
+- 单元测试 ustanbul 覆盖率
+
+##### 持续集成
+- 频繁将代码集成到主干
+- 每次集成都通过自动化构建测试
+- 尽早发现错误
+- 防止分支大幅偏离主干
+- build:passing coverage:100%(repo-badges)
+- travis-cli
+- library 验证性能更高 bench-mark 性能测试
+- 浏览器 jspref.com
+
+
      
            
