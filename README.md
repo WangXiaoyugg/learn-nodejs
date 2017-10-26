@@ -239,6 +239,12 @@ treeShaking 打包用到的模块 uglifyjs-webpack-plugin
 - library 验证性能更高 bench-mark 性能测试
 - 浏览器 jspref.com
 
+#### UI测试
+- React 组件UI 测试 jest (简单API 测试类似 chai)
+- React jest Dom 测试
+- sinon 包
+- 测试写好的网页 selenium-webdriver
+  [selenium-webdriver](http://seleniumhq.github.io/selenium/docs/api/javascript/)
 
      
            
