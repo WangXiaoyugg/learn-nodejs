@@ -1,0 +1,1 @@
+const path = require('path');module.exports = {    screenshot:path.resolve(__dirname,'../../screenshot'),    imgDir:path.resolve(__dirname,'../../imgs')};

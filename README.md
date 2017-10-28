@@ -245,6 +245,22 @@ treeShaking 打包用到的模块 uglifyjs-webpack-plugin
 - sinon 包
 - 测试写好的网页 selenium-webdriver
   [selenium-webdriver](http://seleniumhq.github.io/selenium/docs/api/javascript/)
+  
+#### 爬虫
+- 按照一定规则自动抓取网络信息的程序
+- cherrio + superagent
+- puppeteer
+
+#### 反爬虫
+- User-Agent,Referer,验证码
+- 单位时间访问次数，访问量
+- 关键信息图片混淆
+- 异步加载
+
+##### 空目录上传
+- .gitkeeper
+
+  
 
      
            
